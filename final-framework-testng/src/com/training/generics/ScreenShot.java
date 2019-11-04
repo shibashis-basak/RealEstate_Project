@@ -14,7 +14,7 @@ import org.openqa.selenium.WebDriverException;
 
 /**
  * 
- * @author Naveen
+ * @author Shibashis
  * @see in this class the path for screenshot is hard coded, please refer to others.properties file 
  *   the entry is kept, and this path shall be able to change from properties file 
  */
@@ -30,7 +30,7 @@ public class ScreenShot {
 	public void captureScreenShot(){
 		
 		// to be changed 
-		String path = "C:\\Users\\Naveen\\Desktop\\screenshots\\";
+		String path = "C:\\Users\\ShibashisBasak\\Desktop\\Selenium Manipal Training\\Screenshots";
 		String fileName ="";
 
 		GregorianCalendar calendar = new GregorianCalendar(); 
@@ -66,7 +66,7 @@ public class ScreenShot {
 
 	public void captureScreenShot(String fileName){
 		
-		String path =  "C:\\Users\\Naveen\\Desktop\\screenshots\\";
+		String path =  "C:\\Users\\ShibashisBasak\\Desktop\\Selenium Manipal Training\\Screenshots";
 	
 		// 1. create file 
 		// 2. capture screenshot from selenium 

@@ -87,6 +87,8 @@ public class CreatePropertyAddingRegionSeparately {
 		addnewPOM.sendTitle("prestige");
 		addnewPOM.sendContent("home town");
 		addnewPOM.selectRegion("Electronic city");
+		
+		Thread.sleep(2000);
 		addnewPOM.clickOnPublish();
 		
 		Thread.sleep(5000);

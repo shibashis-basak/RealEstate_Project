@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30112" started-at="2019-11-07T04:50:40Z" finished-at="2019-11-07T04:51:10Z">
+  <suite name="Default suite" duration-ms="52481" started-at="2019-11-07T05:36:39Z" finished-at="2019-11-07T05:37:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30112" started-at="2019-11-07T04:50:40Z" finished-at="2019-11-07T04:51:10Z">
-      <class name="com.training.sanity.tests.LostPasswordTest">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.LostPasswordTest@4cc0edeb]" name="setUpBeforeClass" is-config="true" duration-ms="6" started-at="2019-11-07T10:20:40Z" finished-at="2019-11-07T10:20:40Z">
+    <test name="Default test" duration-ms="52481" started-at="2019-11-07T05:36:39Z" finished-at="2019-11-07T05:37:31Z">
+      <class name="com.training.sanity.tests.CreatePropertyAddingRegionSeparately">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.CreatePropertyAddingRegionSeparately@4cc0edeb]" name="setUpBeforeClass" is-config="true" duration-ms="10" started-at="2019-11-07T11:06:39Z" finished-at="2019-11-07T11:06:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.LostPasswordTest@4cc0edeb]" name="setUp" is-config="true" duration-ms="21809" started-at="2019-11-07T10:20:40Z" finished-at="2019-11-07T10:21:02Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.CreatePropertyAddingRegionSeparately@4cc0edeb]" name="setUp" is-config="true" duration-ms="22146" started-at="2019-11-07T11:06:39Z" finished-at="2019-11-07T11:07:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="lostpasswordTest()[pri:0, instance:com.training.sanity.tests.LostPasswordTest@4cc0edeb]" name="lostpasswordTest" duration-ms="6194" started-at="2019-11-07T10:21:02Z" finished-at="2019-11-07T10:21:08Z">
+        <test-method status="PASS" signature="createPropertyAddingRegionSeparately()[pri:0, instance:com.training.sanity.tests.CreatePropertyAddingRegionSeparately@4cc0edeb]" name="createPropertyAddingRegionSeparately" duration-ms="28374" started-at="2019-11-07T11:07:01Z" finished-at="2019-11-07T11:07:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- lostpasswordTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.LostPasswordTest@4cc0edeb]" name="tearDown" is-config="true" duration-ms="2068" started-at="2019-11-07T10:21:08Z" finished-at="2019-11-07T10:21:10Z">
+        </test-method> <!-- createPropertyAddingRegionSeparately -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.CreatePropertyAddingRegionSeparately@4cc0edeb]" name="tearDown" is-config="true" duration-ms="1929" started-at="2019-11-07T11:07:29Z" finished-at="2019-11-07T11:07:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.LostPasswordTest -->
+      </class> <!-- com.training.sanity.tests.CreatePropertyAddingRegionSeparately -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

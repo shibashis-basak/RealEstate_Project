@@ -29,6 +29,7 @@ public class LoginTests {
 		FileInputStream inStream = new FileInputStream("./resources/others.properties");
 		properties.load(inStream);
 	}
+	
 
 	@BeforeMethod
 	public void setUp() throws Exception {

@@ -24,11 +24,17 @@ public class DashboardPOM {
 	@FindBy(xpath="//a[@class='ab-item' and contains(text(),'Log Out')]")
 	private WebElement logout;
 	
-	
+	@FindBy(xpath="//div[contains(text(),'Properties')]")
+	private WebElement properties;
 
 	public void editMyProfile() {
 		Actions act = new Actions(driver);
 		act.moveToElement(admin).moveToElement(profile).click().build().perform();
+	}
+	
+	
+	public void clickOnProperties() {
+		this.properties.click();
 	}
 	
 	

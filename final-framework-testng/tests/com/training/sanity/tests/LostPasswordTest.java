@@ -62,6 +62,7 @@ public class LostPasswordTest {
 		homepagePOM.clickLoginBtn();
 		
 		myloginPOM.validateLoginPage();
+		myloginPOM.scrolldown();
 		myloginPOM.clickOnLostPassword();
 		
 		lostpasswordPOM.sendEmail("admin");

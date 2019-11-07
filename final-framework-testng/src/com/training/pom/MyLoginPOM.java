@@ -3,6 +3,7 @@ package com.training.pom;
 import static org.testng.Assert.*;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -48,6 +49,11 @@ public class MyLoginPOM {
 	
 	public void clickLoginBtn() {
 		this.loginBtn.click(); 
+	}
+	
+	public void scrolldown(){
+		JavascriptExecutor jse = (JavascriptExecutor)driver;
+		jse.executeScript("window.scrollBy(0,300)");
 	}
 	
 	public void clickOnLostPassword(){

@@ -18,6 +18,12 @@ public class HomePagePOM {
 	
 	@FindBy(className="sign-in")
 	private WebElement signin; 
+	
+	
+	@FindBy(xpath="//li[@id='menu-item-354']//a[contains(text(),'New Launch')]")
+	private WebElement newLaunch; 
+	
+	
 	 
 	public void validateHomePage(){
 		assertEquals(driver.getTitle(),"Real Estate");
@@ -27,5 +33,10 @@ public class HomePagePOM {
 	
 	public void clickLoginBtn() {
 		this.signin.click(); 
+	}
+	
+	
+	public void clickNewLaunch() {
+		this.newLaunch.click(); 
 	}
 }

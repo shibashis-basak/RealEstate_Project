@@ -26,6 +26,11 @@ public class DashboardPOM {
 	
 	@FindBy(xpath="//div[contains(text(),'Properties')]")
 	private WebElement properties;
+	
+	@FindBy(xpath="//div[contains(text(),'Users')]")
+	private WebElement users;
+	
+
 
 	public void editMyProfile() {
 		Actions act = new Actions(driver);
@@ -35,6 +40,10 @@ public class DashboardPOM {
 	
 	public void clickOnProperties() {
 		this.properties.click();
+	}
+	
+	public void clickOnUsers() {
+		this.users.click();
 	}
 	
 	
